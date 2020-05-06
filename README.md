@@ -36,7 +36,7 @@ check from tensorboardx:
 Test
 ---------
 ```bash
-python src/test_img.py --batch_size 1 --image_size 299 --test_data_dir data/test_save/  --saved_model models/epoch_53.pkl --save_path data/result/
+python src/test_img.py --batch_size 1 --image_size 299 --test_data_dir data/test_save/  --save_path data/result/ --saved_model models\resnet50-19c8e357.pth
 ```
 
 Result
